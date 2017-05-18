@@ -25,6 +25,6 @@ public class HomePage extends PageObject
 			allElementsOnHomePage.put("Sign in securely".toLowerCase(),signInSecurelyButton);
 			allElementsOnHomePage.put("Account & Lists".toLowerCase(),accountListLink);
 			allElementsOnHomePage.put("Page Unique Element".toLowerCase(), signInSecurelyButton);
-			return allElementsOnHomePage.get(gherkinElement.toLowerCase());
+			return allElementsOnHomePage.get(gherkinElement.toLowerCase()); 
 		}
 }
