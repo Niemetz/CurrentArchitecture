@@ -95,7 +95,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/CurrentArchitectRunnerTestSuite.java </include> 
+                        <include>**/CurrentArchitectureRunnerTestSuite.java </include> 
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>
